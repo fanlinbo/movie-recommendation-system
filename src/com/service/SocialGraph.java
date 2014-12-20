@@ -154,6 +154,7 @@ public class SocialGraph implements Serializable {
 				sg.vextices[j].firstarc = p;
 				arcNum++;
 				///向前更新？
+				//arcNum边的数目
 			}
 		}
 
