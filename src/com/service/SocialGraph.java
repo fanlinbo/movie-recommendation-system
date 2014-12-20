@@ -153,6 +153,7 @@ public class SocialGraph implements Serializable {
 				p.nextarc = sg.vextices[j].firstarc;
 				sg.vextices[j].firstarc = p;
 				arcNum++;
+				///向前更新？
 			}
 		}
 
