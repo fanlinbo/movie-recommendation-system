@@ -182,6 +182,7 @@ public class SocialGraph implements Serializable {
 	 * @param prePath
 	 *            save previous vertex id on the target shortest path
 	 * @return true if the vertex has adjacency nodes, false if not
+	 * 复杂度应该是n，但是求所有点的关系后复杂度为n^2
 	 */
 	public boolean ShortestPath_Djst(SocialGraph sg, int vexId,
 			String prePath[]) {
